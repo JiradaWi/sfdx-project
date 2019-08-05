@@ -100,9 +100,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>helloWorld</componentName>
-        </componentInstances>
-        <componentInstances>
             <componentInstanceProperties>
                 <name>tabs</name>
                 <value>tabs</value>
