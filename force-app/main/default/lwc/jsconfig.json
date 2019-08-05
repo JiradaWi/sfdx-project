@@ -11,6 +11,9 @@
             ],
             "c/bearSupervisor": [
                 "bearSupervisor/bearSupervisor.js"
+            ],
+            "c/bearList": [
+                "bearList/bearList.js"
             ]
         }
     },
