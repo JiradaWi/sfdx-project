@@ -1,0 +1,4 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes"
+                access="global">
+<h1>Hello World!</h1>
+</aura:component>
