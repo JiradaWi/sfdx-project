@@ -20,6 +20,9 @@
             ],
             "c/bearMap": [
                 "bearMap/bearMap.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
             ]
         }
     },
