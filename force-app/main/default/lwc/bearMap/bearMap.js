@@ -24,4 +24,4 @@ export default class BearMap extends LightningElement {
 			};
 		});
 	}
-}
+}// test
