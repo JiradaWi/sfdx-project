@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Discounted_Amount__c</fullName>
-    <description>Calculates the opportunity amount after any discount has been applied.</description>
+    <fullName>Commission__c</fullName>
+    <description>Calculates sales rep commission of 10 percent when opportunity is won.</description>
     <externalId>false</externalId>
-    <formula>Amount * (1 - Discount_Percentagee__c)</formula>
+    <formula>IF( ISPICKVAL( StageName , &quot;Closed Won&quot;) , Amount * 0.1, 0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>Opportunity amount after discount has been applied.</inlineHelpText>
-    <label>Discounted Amount</label>
+    <inlineHelpText>Sales rep commission when opportunity is won.</inlineHelpText>
+    <label>Commission</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>
