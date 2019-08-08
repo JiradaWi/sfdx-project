@@ -46,7 +46,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.Amount_After_Discount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.CampaignId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Close_Reason__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Commission__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -72,6 +87,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Discount_Percentage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Discount_Percentagee__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -112,6 +132,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Probability</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Region_Zone__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
