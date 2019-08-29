@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Read_Only_in_DetailEdit_Page</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( NOT(Name = &#39;&#39;) ,  ISCHANGED( Name ))</errorConditionFormula>
+    <errorMessage>Campaign name is unable to be edited!</errorMessage>
+</ValidationRule>

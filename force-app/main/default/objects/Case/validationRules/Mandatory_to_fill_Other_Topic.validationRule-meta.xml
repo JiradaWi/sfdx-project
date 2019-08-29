@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_to_fill_Other_Topic</fullName>
+    <active>true</active>
+    <description>IF( ISPICKVAL( Topic__c , &#39;เรื่องอื่น ๆ (Other)&#39;) , ISBLANK(Subject),  
+IF(ISPICKVAL( Origin ,&#39;Email&#39;),ISBLANK(Subject),NOT(ISBLANK(Subject)))
+)</description>
+    <errorConditionFormula>IF(ISPICKVAL( Origin,&#39;Email&#39;)
+,FALSE,
+IF( ISPICKVAL( Topic__c , &#39;เรื่องอื่น ๆ (Other)&#39;) , ISBLANK(Subject),FALSE)
+)</errorConditionFormula>
+    <errorDisplayField>Subject</errorDisplayField>
+    <errorMessage>Please input เรื่องอื่น ๆ (Other).</errorMessage>
+</ValidationRule>

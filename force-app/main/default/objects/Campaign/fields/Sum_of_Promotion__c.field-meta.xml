@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_of_Promotion__c</fullName>
+    <externalId>false</externalId>
+    <label>Sum of Promotion</label>
+    <summarizedField>Campaign_Cost__c.Actual_Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>Campaign_Cost__c.Campaign_Cost_Type__c</field>
+        <operation>equals</operation>
+        <value>Promotion</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Campaign_Cost__c.Campaign__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

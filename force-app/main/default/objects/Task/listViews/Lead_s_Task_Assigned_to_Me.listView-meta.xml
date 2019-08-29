@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_s_Task_Assigned_to_Me</fullName>
+    <columns>Lead_List__c</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Notification Lead</value>
+    </filters>
+    <filters>
+        <field>NameofLink__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Lead&#39;s Assigned Tasks</label>
+</ListView>

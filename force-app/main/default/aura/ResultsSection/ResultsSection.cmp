@@ -1,8 +1,4 @@
-<aura:component controller="SearchResultsController" implements="force:appHostable,
-flexipage:availableForAllPageTypes,
-flexipage:availableForRecordHome,force:hasRecordId,
-forceCommunity:availableForAllPageTypes,
-force:lightningQuickAction" access="global" >
+<aura:component controller="SearchResultsController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
   <aura:attribute name="accounts" type="Account[]"/>
   <aura:attribute name="contacts" type="Contact[]"/>
   <aura:attribute name="leads" type="Lead[]"/>

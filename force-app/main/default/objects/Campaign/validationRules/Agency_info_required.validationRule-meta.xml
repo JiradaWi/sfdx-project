@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_info_required</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(NOT(ISBLANK(Agency_Name__c )),ISBLANK(Agency_Email__c ),False)</errorConditionFormula>
+    <errorDisplayField>Agency_Email__c</errorDisplayField>
+    <errorMessage>Please enter information</errorMessage>
+</ValidationRule>

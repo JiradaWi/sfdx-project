@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_on_If_other_please_specify</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(ISPICKVAL( Origin,&#39;Other&#39;) 
+,ISBLANK(If_Other_Please_specify__c), 
+FALSE
+)</errorConditionFormula>
+    <errorDisplayField>If_Other_Please_specify__c</errorDisplayField>
+    <errorMessage>Please specify  contact channel.</errorMessage>
+</ValidationRule>

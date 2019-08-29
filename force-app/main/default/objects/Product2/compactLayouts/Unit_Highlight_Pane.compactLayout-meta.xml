@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Highlight_Pane</fullName>
+    <fields>Name</fields>
+    <fields>Unit_Status__c</fields>
+    <fields>Project__c</fields>
+    <label>Unit Highlight Pane</label>
+</CompactLayout>

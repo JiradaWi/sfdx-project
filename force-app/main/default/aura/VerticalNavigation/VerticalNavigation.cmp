@@ -1,7 +1,4 @@
-<aura:component implements="force:appHostable,
-flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,
-force:hasRecordId,forceCommunity:availableForAllPageTypes,
-force:lightningQuickAction" access="global" >
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
   <div class="slds-card">
     <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
       <h2 class="slds-text-title--caps slds-p-around--medium" id="entity-header">Results for 'CO'</h2>
