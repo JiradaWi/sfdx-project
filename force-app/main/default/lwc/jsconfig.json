@@ -26,6 +26,18 @@
             ],
             "c/pubsub": [
                 "pubsub/pubsub.js"
+            ],
+            "c/bikeCard": [
+                "bikeCard/bikeCard.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
             ]
         }
     },
