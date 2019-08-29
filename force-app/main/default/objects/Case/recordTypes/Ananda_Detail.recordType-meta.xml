@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ananda_Detail</fullName>
+    <active>true</active>
+    <businessProcess>Ananda</businessProcess>
+    <label>Ananda Detail</label>
+    <picklistValues>
+        <picklist>Account_Unit_Category__c</picklist>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Escalation_Round__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Media__c</picklist>
+        <values>
+            <fullName>EDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friend%2FFamily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WeChat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Youtube</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>AMC App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Livechat %28Chatbot%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pantip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WeChat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Youtube</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Category__c</picklist>
+        <values>
+            <fullName>Facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>People</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Severity_Level__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subtype__c</picklist>
+        <values>
+            <fullName>AMC Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMC Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS%2FTransfer Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clarify Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FMC Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FMC Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMC Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMC Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property%2FProject Management %28Juristic%29 for Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property%2FProject Management %28Juristic%29 for Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telesales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Complaint CS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer Complaint PMC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Topic__c</picklist>
+        <values>
+            <fullName>Call Center ให%E0%B9%89บร%E0%B8%B4การไม%E0%B9%88ถ%E0%B8%B9กต%E0%B9%89อง %28Provide incorrect information%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การตรวจร%E0%B8%B1บห%E0%B9%89องช%E0%B8%B8ด %28Unit inspection%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การน%E0%B8%B1ดหมายสำหร%E0%B8%B1บงานแจ%E0%B9%89งซ%E0%B9%88อม %28Commitment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การประสานงาน %28Coordination%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การประสานงานของ Call Center %28Coordination%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การประสานงานต%E0%B8%B4ดต%E0%B9%88อของเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88ฝ%E0%B9%88ายช%E0%B9%88าง%2Fต%E0%B8%B4ดต%E0%B9%88อไม%E0%B9%88ได%E0%B9%89%2Fต%E0%B8%B4ดต%E0%B9%88อยาก %28coordination%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การประสานงานต%E0%B8%B4ดต%E0%B9%88อของเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88ฝ%E0%B9%88ายโอน%2Fต%E0%B8%B4ดต%E0%B9%88อไม%E0%B9%88ได%E0%B9%89%2Fต%E0%B8%B4ดต%E0%B9%88อยาก %28Coordination%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การส%E0%B9%88ง SMS %28Send SMS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การแจ%E0%B9%89งซ%E0%B9%88อม %28Defect in the condo%2Fhouse%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การโฆษณา%2Fป%E0%B9%89ายบอกทาง%2Fป%E0%B9%89าย billboard %28Advertisment%2FGuidepost%2FBillboard%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การให%E0%B9%89บร%E0%B8%B4การของเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88น%E0%B8%B4ต%E0%B8%B4บ%E0%B8%B8คคล%2Cแม%E0%B9%88บ%E0%B9%89าน รปภ %28Service%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>การให%E0%B9%89บร%E0%B8%B4การของเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88น%E0%B8%B4ต%E0%B8%B4บ%E0%B8%B8คคล%2Cแม%E0%B9%88บ%E0%B9%89าน รปภ %28Services%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ข%E0%B8%B1%E0%B9%89นตอนการเก%E0%B9%87บงานล%E0%B9%88าช%E0%B9%89า %28Delay process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ขอร%E0%B8%B1บโปรช%E0%B8%B1วร%E0%B9%8C%2C ข%E0%B9%89อม%E0%B8%B9ลโปรโมช%E0%B8%B1%E0%B9%88น%2C ข%E0%B9%89อม%E0%B8%B9ลแคมเปญ %28Require Brouchure%2FCampaign%2FPromotion%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ขอเปล%E0%B8%B5%E0%B9%88ยนแปลงท%E0%B8%B5%E0%B9%88อย%E0%B8%B9%E0%B9%88%2Fเบอร%E0%B9%8Cโทรศ%E0%B8%B1พท%E0%B9%8C %28Change of Address%2FLetter%2FPhone number%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ขอเปล%E0%B8%B5%E0%B9%88ยนแปลงท%E0%B8%B5%E0%B9%88อย%E0%B8%B9%E0%B9%88ส%E0%B9%88งบ%E0%B8%B4ล%2Fเบอร%E0%B9%8Cโทรศ%E0%B8%B1พท%E0%B9%8C %28Change of Address%2FLetter%2FPhone number%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ค%E0%B8%B8ณภาพของการก%E0%B9%88อสร%E0%B9%89าง %28Construction quality%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ค%E0%B8%B8ณภาพของงานซ%E0%B9%88อม %28Work Quality%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนการซ%E0%B9%88อมงาน %28Delay Process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนฝ%E0%B9%88าย AMC %28Delay Process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนฝ%E0%B9%88าย Call Center %28Delay process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนฝ%E0%B9%88าย HMC %28Delay Process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนฝ%E0%B9%88ายก%E0%B9%88อสร%E0%B9%89าง %28Delay process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนฝ%E0%B9%88ายขาย %28Delay process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของข%E0%B8%B1%E0%B9%89นตอนฝ%E0%B9%88ายโอน %28Delay process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความล%E0%B9%88าช%E0%B9%89าของฝ%E0%B9%88าย Project Management %28Delay Process%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ความสะอาดของ Sales Office %28Sales Office Cleanness%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>คะแนน AMC %28AMC Points%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>คะแนน HMC %28HMC Points%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>งานซ%E0%B9%88อมของพ%E0%B8%B7%E0%B9%89นท%E0%B8%B5%E0%B9%88ส%E0%B9%88วนกลางก%E0%B9%88อนน%E0%B8%B4ต%E0%B8%B4บ%E0%B8%B8คคลร%E0%B8%B1บมอบ %28Common Area%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>งานซ%E0%B9%88อมพ%E0%B8%B7%E0%B9%89นท%E0%B8%B5%E0%B9%88ส%E0%B9%88วนกลาง %28Common Area%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>งานร%E0%B9%89องขอแจ%E0%B9%89งซ%E0%B9%88อมนอกประก%E0%B8%B1น %28Job request%2FOut of warranty%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>งานอ%E0%B8%B5เวนท%E0%B9%8C%2Fแคมเปญ%2Fโปรโมช%E0%B8%B1%E0%B9%88น AMC %28AMC Promotion%2FCampaign%2FEvent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>งานอ%E0%B8%B5เวนท%E0%B9%8C%2Fแคมเปญ%2Fโปรโมช%E0%B8%B1%E0%B9%88น HMC %28HMC Promotion%2FCampaign%2FEvent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดต%E0%B9%88อ AMC %28General AMC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดต%E0%B9%88อ HMC %28General HMC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดต%E0%B9%88อน%E0%B8%B4ต%E0%B8%B4บ%E0%B8%B8คคล%2Fสอบถามเร%E0%B8%B7%E0%B9%88องส%E0%B9%88วนกลาง %28Contact details%2FCommon area%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดต%E0%B9%88อล%E0%B8%B9กค%E0%B9%89าเพ%E0%B8%B7%E0%B9%88อ Telesales %28Telesales%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดต%E0%B9%88อสำน%E0%B8%B1กงานใหญ%E0%B9%88 %28Ananda Headquater%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดต%E0%B9%88อเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88 %28Contact employee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามการซ%E0%B9%88อมพ%E0%B8%B7%E0%B9%89นท%E0%B8%B5%E0%B9%88ส%E0%B9%88วนกลางก%E0%B9%88อนน%E0%B8%B4ต%E0%B8%B4บ%E0%B8%B8คคลร%E0%B8%B1บมอบ %28Follow up Common Area Defect before transfer%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามการแลกคะแนน %28Follow up point redemption%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามค%E0%B9%88าชดเชย %28Follow up compensation%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามค%E0%B9%88าส%E0%B9%88วนกลาง %28Follow up receipt of expenses%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามความค%E0%B8%B7บหน%E0%B9%89าของโครงการ %28Follow up completion date%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามงานซ%E0%B9%88อม %28Follow Up Defect%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามงานซ%E0%B9%88อมก%E0%B9%88อนโอน %28Follow up defect before transfer%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามเคส %28Follow Up%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ต%E0%B8%B4ดตามเอกสาร %28Follow up documents%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ทดสอบระบบ %28System Testing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>น%E0%B8%B1ดเวลาท%E0%B8%B5%E0%B9%88เข%E0%B9%89าชมห%E0%B9%89องต%E0%B8%B1วอย%E0%B9%88าง%2Fต%E0%B8%B4ดต%E0%B9%88อพน%E0%B8%B1กงานขาย %28Make an appointment%2FContact Sales%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>บร%E0%B8%B4เวณรอบข%E0%B9%89างได%E0%B9%89ร%E0%B8%B1บผลกระทบจากการก%E0%B9%88อสร%E0%B9%89าง %28Construction impact%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ฝากเช%E0%B9%88า%2Fฝากขาย %28Rental%2FResales%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>พน%E0%B8%B1กงานขายให%E0%B9%89ข%E0%B9%89อม%E0%B8%B9ลไม%E0%B9%88ถ%E0%B8%B9กต%E0%B9%89อง %28Provide Incorrect Information%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การ%2Fเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88ฝ%E0%B9%88ายโอนแต%E0%B9%88งกายไม%E0%B9%88ส%E0%B8%B8ภาพ %28service%2Fmanner%2Fimpolite dressing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การ%2Fแต%E0%B9%88งกายไม%E0%B9%88ส%E0%B8%B8ภาพของพน%E0%B8%B1กงานขาย %28Service%2FManner%2F Impolite Dressing of Sales%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การ%2Fโอนเจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88ฝ%E0%B9%88ายโอนแต%E0%B9%88งกายไม%E0%B9%88ส%E0%B8%B8ภาพ %28service%2Fmanner%2Fimpolite dressing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การของ Call Center %28Service%2Fmanner%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การของ Construction %2F แต%E0%B9%88งกายไม%E0%B9%88ส%E0%B8%B8ภาพ %28Service%2FManner%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การของ PMC %2F แต%E0%B9%88งกายไม%E0%B9%88ส%E0%B8%B8ภาพ %28Service%2FManner%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาท%2Fการให%E0%B9%89บร%E0%B8%B4การของแม%E0%B9%88บ%E0%B9%89าน%2Fรปภ%2E %28Maid%2FSecurity Guard%27s Manner%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>มารยาทการให%E0%B9%89บร%E0%B8%B4การ %28Service%2FManner%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ยกเล%E0%B8%B4กการร%E0%B8%B1บจดหมาย%2Cอ%E0%B8%B5เมล%2C SMS %28Cancel Direct mail%2Femail%2FSMS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ล%E0%B8%B9กค%E0%B9%89าต%E0%B8%B4ดต%E0%B9%88อผ%E0%B8%B4ดเบอร%E0%B9%8C %28Wrong Call%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ส%E0%B8%B4ทธ%E0%B8%B4พ%E0%B8%B4เศษและโปรโมช%E0%B8%B1%E0%B9%88น %28Benefits %26 Promotion%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ส%E0%B9%88วนกลาง%2Fการใช%E0%B9%89งานส%E0%B9%88วนกลาง %28Common Area%2FCommon Area Usage%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามการก%E0%B8%B9%E0%B9%89ธนาคาร %28Loan%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามการทำส%E0%B8%B1ญญา%2Fว%E0%B8%B1นท%E0%B8%B5%E0%B9%88ทำส%E0%B8%B1ญญา %28Sign Contract%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามการผ%E0%B9%88อนดาวน%E0%B9%8C %28Down Payment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามข%E0%B9%89อม%E0%B8%B9ลโครงการ %28Project detail%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามข%E0%B9%89อม%E0%B8%B9ลโปรโมช%E0%B8%B1%E0%B9%88น%2Fแคมเปญ%2Fอ%E0%B8%B5เวนท%E0%B9%8C AMC %28AMC Promotion%2FCampaign%2FEvent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามข%E0%B9%89อม%E0%B8%B9ลโปรโมช%E0%B8%B1%E0%B9%88น%2Fแคมเปญ%2Fอ%E0%B8%B5เวนท%E0%B9%8C HMC %28HMC Promotion%2FCampaign%2FEvent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามคะแนน AMC %28AMC Point%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามคะแนน HMC %28HMC Point%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามย%E0%B8%B7%E0%B9%88นแบบ ตกแต%E0%B9%88ง%2Fต%E0%B9%88อเต%E0%B8%B4ม %28Submit decoration%2Fextension%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามรายละเอ%E0%B8%B5ยดเก%E0%B8%B5%E0%B9%88ยวก%E0%B8%B1บการชำระเง%E0%B8%B4น %28Payment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามว%E0%B8%B1นท%E0%B8%B5%E0%B9%88โอน %28Commitment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามว%E0%B8%B1นน%E0%B8%B1ดหมายเข%E0%B9%89าตรวจห%E0%B9%89อง %28Check defect appointment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามเช%E0%B9%87ค%2Fเง%E0%B8%B4นค%E0%B8%B7น  %28Cheque%2FCash Back%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามเส%E0%B9%89นทาง%2Fเวลาทำการ %28Location%2FHours%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>สอบถามแปลนบ%E0%B9%89าน %28Layout information%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>เจ%E0%B9%89าหน%E0%B9%89าท%E0%B8%B5%E0%B9%88ฝ%E0%B9%88ายโอนให%E0%B9%89ข%E0%B9%89อม%E0%B8%B9ลไม%E0%B9%88ถ%E0%B8%B9กต%E0%B9%89อง%2F ข%E0%B9%89อม%E0%B8%B9ลโปรโมช%E0%B8%B1%E0%B9%88นไม%E0%B9%88ครบถ%E0%B9%89วน %28Provide incorrect information%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>เร%E0%B8%B7%E0%B9%88องอ%E0%B8%B7%E0%B9%88น ๆ %28Other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>เร%E0%B8%B7%E0%B9%88องเช%E0%B9%87ค%2Fเง%E0%B8%B4นค%E0%B8%B7น %28Cheque%2FCash Back%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>เอกสารส%E0%B8%B1ญญาเช%E0%B9%88าไม%E0%B9%88ครบถ%E0%B9%89วน%2Fไม%E0%B9%88ถ%E0%B8%B9กต%E0%B9%89อง %28Incompleted Documents%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>แจ%E0%B9%89งซ%E0%B9%88อมพ%E0%B8%B7%E0%B9%89นท%E0%B8%B5%E0%B9%88ส%E0%B9%88วนกลาง %28Defect in common area%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>โทรต%E0%B8%B4ดตาม lead %28Follow Up Lead%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>โปรโมช%E0%B8%B1%E0%B9%88น %28Promotion%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Clarify Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telesales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

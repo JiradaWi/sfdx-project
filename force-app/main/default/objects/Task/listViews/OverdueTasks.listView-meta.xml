@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>OverdueTasks</fullName>
-    <columns>SUBJECT</columns>
-    <columns>WHO_NAME</columns>
-    <columns>WHAT_NAME</columns>
-    <columns>DUE_DATE</columns>
+    <columns>Lead_List__c</columns>
     <columns>STATUS</columns>
-    <columns>PRIORITY</columns>
-    <columns>CORE.USERS.ALIAS</columns>
-    <columns>LAST_UPDATE</columns>
-    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>DUE_DATE</columns>
     <filterScope>Mine</filterScope>
     <filters>
         <field>IS_CLOSED</field>
@@ -26,5 +20,14 @@
         <operation>lessThan</operation>
         <value>TODAY</value>
     </filters>
-    <label>ENCODED:{!FilterNames.Task_OverdueTasks}</label>
+    <filters>
+        <field>NameofLink__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Overdue Lead</value>
+    </filters>
+    <label>Lead&#39;s Overdue Tasks</label>
 </ListView>

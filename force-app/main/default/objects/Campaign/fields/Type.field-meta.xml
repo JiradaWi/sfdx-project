@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Type</fullName>
+    <inlineHelpText>Corporate Campaign is campaign for many project; BU Campaign is campaign for a BU; Project Campaign is campaign for a single project; Branding Campaign is campaign for brand awareness; CRM Campaign is campaign for CRM</inlineHelpText>
+    <trackHistory>false</trackHistory>
     <type>Picklist</type>
 </CustomField>

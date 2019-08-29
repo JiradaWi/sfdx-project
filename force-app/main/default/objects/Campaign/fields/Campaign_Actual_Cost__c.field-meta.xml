@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Actual_Cost__c</fullName>
+    <externalId>false</externalId>
+    <label>Campaign Actual Cost</label>
+    <summarizedField>Campaign_Cost__c.Actual_Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>Campaign_Cost__c.Actual_Cost__c</field>
+        <operation>notEqual</operation>
+        <value/>
+    </summaryFilterItems>
+    <summaryForeignKey>Campaign_Cost__c.Campaign__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

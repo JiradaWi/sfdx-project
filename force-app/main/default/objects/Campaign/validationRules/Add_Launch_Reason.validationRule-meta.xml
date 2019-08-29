@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Launch_Reason</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(OR(StartDate != ActualStartDate__c ,EndDate!=ActualEndDate__c), ISBLANK(Launch_Reason__c) ,false)</errorConditionFormula>
+    <errorDisplayField>Launch_Reason__c</errorDisplayField>
+    <errorMessage>Please input &#39;Launch Reason&#39;.</errorMessage>
+</ValidationRule>

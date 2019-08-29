@@ -49,11 +49,11 @@
             <outputObject>Lead</outputObject>
         </objectMapping>
     </duplicateRuleMatchRules>
-    <isActive>false</isActive>
+    <isActive>true</isActive>
     <masterLabel>Standard Rule for Contacts with Duplicate Leads</masterLabel>
     <operationsOnInsert>Alert</operationsOnInsert>
     <operationsOnInsert>Report</operationsOnInsert>
     <operationsOnUpdate>Report</operationsOnUpdate>
     <securityOption>EnforceSharingRules</securityOption>
-    <sortOrder>1</sortOrder>
+    <sortOrder>2</sortOrder>
 </DuplicateRule>

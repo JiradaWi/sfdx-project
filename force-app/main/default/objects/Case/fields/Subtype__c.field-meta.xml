@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Subtype</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Project Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Property/Project Management (Juristic) for Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>AMC Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Construction Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>CS/Transfer Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>FMC Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>HMC Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>PMC Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>PMT Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Transfer Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Other Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Call Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Property/Project Management (Juristic) for Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>The Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Transfer Complaint CS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Transfer Complaint PMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>AMC Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Construction Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>FMC Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Helix Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>HMC Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>PMC Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>PMT Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Transfer Complaint PMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint</controllingFieldValue>
+            <valueName>Other Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telesales</controllingFieldValue>
+            <valueName>Telesales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clarify Lead</controllingFieldValue>
+            <valueName>Clarify Lead</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

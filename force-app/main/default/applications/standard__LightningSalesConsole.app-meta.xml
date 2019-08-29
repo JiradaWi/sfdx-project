@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lead_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lead_c_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Lead__c</pageOrSobjectType>
+    </actionOverrides>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
@@ -13,17 +58,122 @@
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-Event</tabs>
+    <tabs>standard-ContentNote</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Candidate__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Promotion__c</tabs>
+    <tabs>Campaign_Media__c</tabs>
+    <tabs>Lead__c</tabs>
+    <tabs>Contact_Info__c</tabs>
+    <tabs>Campaign_Promotion__c</tabs>
+    <tabs>Campaign_Project__c</tabs>
+    <tabs>Address__c</tabs>
+    <tabs>Call_Topic__c</tabs>
+    <tabs>SLA_Master__c</tabs>
+    <tabs>Questionnaire_Stage__c</tabs>
+    <tabs>Project_Users__c</tabs>
+    <tabs>Campaign_Cost__c</tabs>
+    <tabs>District__c</tabs>
+    <tabs>Country__c</tabs>
+    <tabs>Sub_District__c</tabs>
+    <tabs>Province__c</tabs>
+    <tabs>Account_Relation__c</tabs>
+    <tabs>AnswerItem__c</tabs>
+    <tabs>AnswerMaster__c</tabs>
+    <tabs>QuestionItem__c</tabs>
+    <tabs>QuestionMaster__c</tabs>
+    <tabs>Survey__c</tabs>
+    <tabs>SurveyItem__c</tabs>
+    <tabs>Event_Registration__c</tabs>
+    <tabs>Customer_Score_Master__c</tabs>
+    <tabs>Memo__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>Candidate__c</tab>
+            <tab>Account_Relation__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Address__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AnswerItem__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AnswerMaster__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Call_Topic__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Campaign_Cost__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Campaign_Media__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Campaign_Project__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Campaign_Promotion__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Contact_Info__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Country__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Customer_Score_Master__c</tab>
+        </mappings>
+        <mappings>
+            <tab>District__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Event_Registration__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Lead__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Memo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Project_Users__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Project__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Promotion__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Province__c</tab>
+        </mappings>
+        <mappings>
+            <tab>QuestionItem__c</tab>
+        </mappings>
+        <mappings>
+            <tab>QuestionMaster__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Questionnaire_Stage__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SLA_Master__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sub_District__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SurveyItem__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Survey__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
@@ -36,6 +186,9 @@
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ContentNote</tab>
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>

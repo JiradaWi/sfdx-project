@@ -21,10 +21,6 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>ExpandedSourceTrackingPref</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
         <settingName>ActivityAnalyticsEnabled</settingName>
         <settingValue>false</settingValue>
     </preferences>
@@ -37,12 +33,8 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>Packaging2</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
         <settingName>ConsentManagementEnabled</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>EnhancedEmailEnabled</settingName>
@@ -66,7 +58,7 @@
     </preferences>
     <preferences>
         <settingName>Translation</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>UseLanguageFallback</settingName>
@@ -78,7 +70,7 @@
     </preferences>
     <preferences>
         <settingName>NotesReservedPref01</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>S1OfflinePref</settingName>
@@ -90,7 +82,7 @@
     </preferences>
     <preferences>
         <settingName>OfflineDraftsEnabled</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>ChatterEnabled</settingName>
@@ -102,11 +94,11 @@
     </preferences>
     <preferences>
         <settingName>PathAssistantsEnabled</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>UsePathCollapsedUserPref</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>XssProtection</settingName>
@@ -142,19 +134,15 @@
     </preferences>
     <preferences>
         <settingName>UsersAreLightningOnly</settingName>
-        <settingValue>false</settingValue>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>RemoveThemeBrandBanner</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>ScratchOrgManagementPref</settingName>
+        <settingName>PortalUserShareOnCase</settingName>
         <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>TerritoryManagement2Enable</settingName>
-        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>VoiceEnabled</settingName>

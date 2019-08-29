@@ -1,91 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard</fullName>
+        <fullName>Assign to Manager</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>cutiemoon08@cunning-hawk-i1io4p.com</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>Helix_Service_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
-                <field>Account.BillingCountry</field>
+                <field>Case.Origin</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>Email</value>
             </criteriaItems>
             <criteriaItems>
-                <field>Account.SLA__c</field>
+                <field>Case.RecordTypeId</field>
                 <operation>equals</operation>
-                <value>Gold,Platinum</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
+                <value>Helix Detail</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>cutiemoon08@cunning-hawk-i1io4p.com</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>Ananda_Service_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
-                <field>Account.BillingCountry</field>
+                <field>Case.Origin</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>Email</value>
             </criteriaItems>
             <criteriaItems>
-                <field>Account.SLA__c</field>
+                <field>Case.RecordTypeId</field>
                 <operation>equals</operation>
-                <value>Silver,Bronze</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>cutiemoon08@cunning-hawk-i1io4p.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Account.BillingCountry</field>
-                <operation>notEqual</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.SLA__c</field>
-                <operation>equals</operation>
-                <value>Gold,Platinum</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>cutiemoon08@cunning-hawk-i1io4p.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Account.BillingCountry</field>
-                <operation>notEqual</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.SLA__c</field>
-                <operation>equals</operation>
-                <value>Silver,Bronze</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>cutiemoon08@cunning-hawk-i1io4p.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Partner</value>
+                <value>Ananda Detail</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
