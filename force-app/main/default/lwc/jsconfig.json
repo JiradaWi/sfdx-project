@@ -38,6 +38,9 @@
             ],
             "c/tile": [
                 "tile/tile.js"
+            ],
+            "c/selector": [
+                "selector/selector.js"
             ]
         }
     },
