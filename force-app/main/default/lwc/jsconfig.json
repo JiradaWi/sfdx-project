@@ -18,15 +18,6 @@
             "c/bearTile": [
                 "bearTile/bearTile.js"
             ],
-            "c/helloWebComponent": [
-                "helloWebComponent/helloWebComponent.js"
-            ],
-            "c/helloWorld": [
-                "helloWorld/helloWorld.js"
-            ],
-            "c/pubsub": [
-                "pubsub/pubsub.js"
-            ],
             "c/bikeCard": [
                 "bikeCard/bikeCard.js"
             ],
@@ -36,11 +27,23 @@
             "c/detail": [
                 "detail/detail.js"
             ],
-            "c/tile": [
-                "tile/tile.js"
+            "c/helloWebComponent": [
+                "helloWebComponent/helloWebComponent.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
             ],
             "c/selector": [
                 "selector/selector.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
             ]
         }
     },
