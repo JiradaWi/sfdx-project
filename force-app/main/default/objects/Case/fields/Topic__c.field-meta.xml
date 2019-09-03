@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topic__c</fullName>
+    <externalId>false</externalId>
+    <label>Topic</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subtype__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Topic</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>The Agent</controllingFieldValue>
+            <controllingFieldValue>Helix Agent</controllingFieldValue>
+            <valueName>ฝากเช่า/ฝากขาย (Rental/Resales)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>The Agent</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMC</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMT</controllingFieldValue>
+            <controllingFieldValue>Helix Agent</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการ/โอนเจ้าหน้าที่ฝ่ายโอนแต่งกายไม่สุภาพ (service/manner/impolite dressing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>The Agent</controllingFieldValue>
+            <controllingFieldValue>Helix Agent</controllingFieldValue>
+            <valueName>เอกสารสัญญาเช่าไม่ครบถ้วน/ไม่ถูกต้อง (Incompleted Documents)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>The Agent</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMC</controllingFieldValue>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMT</controllingFieldValue>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMT Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <controllingFieldValue>Construction Complaint</controllingFieldValue>
+            <controllingFieldValue>FMC Complaint</controllingFieldValue>
+            <controllingFieldValue>Helix Agent</controllingFieldValue>
+            <controllingFieldValue>HMC Complaint</controllingFieldValue>
+            <controllingFieldValue>AMC Complaint</controllingFieldValue>
+            <controllingFieldValue>Other Complaint</controllingFieldValue>
+            <valueName>ติดตามเคส (Follow Up)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>The Agent</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMC</controllingFieldValue>
+            <controllingFieldValue>Property/Project Management (Juristic) for Inquiry</controllingFieldValue>
+            <controllingFieldValue>Property/Project Management (Juristic) for Complaint</controllingFieldValue>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>Other Inquiry</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMT</controllingFieldValue>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMT Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <controllingFieldValue>FMC Complaint</controllingFieldValue>
+            <controllingFieldValue>Helix Agent</controllingFieldValue>
+            <controllingFieldValue>HMC Complaint</controllingFieldValue>
+            <controllingFieldValue>AMC Complaint</controllingFieldValue>
+            <controllingFieldValue>Other Complaint</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>เรื่องอื่น ๆ (Other)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint PMC</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMT</controllingFieldValue>
+            <valueName>การตรวจรับห้องชุด (Unit inspection)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint PMC</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMT</controllingFieldValue>
+            <valueName>การประสานงานติดต่อของเจ้าหน้าที่ฝ่ายช่าง/ติดต่อไม่ได้/ติดต่อยาก (coordination)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint PMC</controllingFieldValue>
+            <controllingFieldValue>Transfer Complaint PMT</controllingFieldValue>
+            <valueName>ขั้นตอนการเก็บงานล่าช้า (Delay process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Inquiry</controllingFieldValue>
+            <valueName>ติดตามค่าส่วนกลาง (Follow up receipt of expenses)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Inquiry</controllingFieldValue>
+            <valueName>ติดต่อนิติบุคคล/สอบถามเรื่องส่วนกลาง (Contact details/Common area)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Inquiry</controllingFieldValue>
+            <valueName>สอบถามยื่นแบบ ตกแต่ง/ต่อเติม (Submit decoration/extension)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMT Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMC Inquiry</controllingFieldValue>
+            <valueName>สอบถามแปลนบ้าน (Layout information)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Complaint</controllingFieldValue>
+            <valueName>การประสานงาน (Coordination)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Complaint</controllingFieldValue>
+            <valueName>การให้บริการของเจ้าหน้าที่นิติบุคคล,แม่บ้าน รปภ (Service)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Complaint</controllingFieldValue>
+            <valueName>ความล่าช้าของฝ่าย Project Management (Delay Process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property/Project Management (Juristic) for Complaint</controllingFieldValue>
+            <valueName>ส่วนกลาง/การใช้งานส่วนกลาง (Common Area/Common Area Usage)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>ขอเปลี่ยนแปลงที่อยู่/เบอร์โทรศัพท์ (Change of Address/Letter/Phone number)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>ติดตามการแลกคะแนน (Follow up point redemption)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <valueName>ติดต่อ HMC (General HMC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>ยกเลิกการรับจดหมาย,อีเมล, SMS (Cancel Direct mail/email/SMS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <valueName>สอบถามข้อมูลโปรโมชั่น/แคมเปญ/อีเวนท์ HMC (HMC Promotion/Campaign/Event)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <valueName>สอบถามคะแนน HMC (HMC Point)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Inquiry</controllingFieldValue>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>สอบถามเช็ค/เงินคืน  (Cheque/Cash Back)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>ติดต่อ AMC (General AMC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>สอบถามข้อมูลโปรโมชั่น/แคมเปญ/อีเวนท์ AMC (AMC Promotion/Campaign/Event)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMC Inquiry</controllingFieldValue>
+            <valueName>สอบถามคะแนน AMC (AMC Point)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนฝ่ายขาย (Delay process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>ความสะอาดของ Sales Office (Sales Office Cleanness)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>พนักงานขายให้ข้อมูลไม่ถูกต้อง (Provide Incorrect Information)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการ/แต่งกายไม่สุภาพของพนักงานขาย (Service/Manner/ Impolite Dressing of Sales)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการของแม่บ้าน/รปภ. (Maid/Security Guard&#39;s Manner)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <valueName>Call Center ให้บริการไม่ถูกต้อง (Provide incorrect information)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <valueName>Call Center ไม่ติดตามงาน/ไม่อัพเดทความคืบหน้าของงาน/ล่าช้า (Delay Process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <valueName>การประสานงานของ Call Center (Coordination)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนฝ่าย Call Center (Delay process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call Center</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการของ Call Center (Service/manner)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>การส่ง SMS (Send SMS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>การโฆษณา/ป้ายบอกทาง/ป้าย billboard (Advertisment/Guidepost/Billboard)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>โปรโมชั่น (Promotion)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <valueName>การประสานงานติดต่อของเจ้าหน้าที่ฝ่ายโอน/ติดต่อไม่ได้/ติดต่อยาก (Coordination)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนฝ่ายโอน (Delay process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการ/เจ้าหน้าที่ฝ่ายโอนแต่งกายไม่สุภาพ (service/manner/impolite dressing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <valueName>สิทธิพิเศษและโปรโมชั่น (Benefits &amp; Promotion)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Complaint CS</controllingFieldValue>
+            <valueName>เจ้าหน้าที่ฝ่ายโอนให้ข้อมูลไม่ถูกต้อง/ ข้อมูลโปรโมชั่นไม่ครบถ้วน (Provide incorrect information)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนฝ่ายก่อสร้าง (Delay process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <valueName>คุณภาพของการก่อสร้าง (Construction quality)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <valueName>งานซ่อมของพื้นที่ส่วนกลางก่อนนิติบุคคลรับมอบ (Common Area)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <valueName>บริเวณรอบข้างได้รับผลกระทบจากการก่อสร้าง (Construction impact)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Complaint</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการของ Construction / แต่งกายไม่สุภาพ (Service/Manner)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>ติดต่อสำนักงานใหญ่ (Headquater)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>ติดต่อเจ้าหน้าที่ (Contact employee)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>ติดต่อสำนักงานใหญ่ (Ananda Headquater)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <valueName>ขอรับโปรชัวร์, ข้อมูลโปรโมชั่น, ข้อมูลแคมเปญ (Require Brouchure/Campaign/Promotion)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <valueName>ติดตามความคืบหน้าของโครงการ (Follow up completion date)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <valueName>นัดเวลาที่เข้าชมห้องตัวอย่าง/ติดต่อพนักงานขาย (Make an appointment/Contact Sales)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <valueName>สอบถามการกู้ธนาคาร (Loan)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <valueName>สอบถามข้อมูลโครงการ (Project detail)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Information</controllingFieldValue>
+            <valueName>สอบถามเส้นทาง/เวลาทำการ (Location/Hours)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <valueName>ติดตามเอกสาร (Follow up documents)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <valueName>สอบถามการทำสัญญา/วันที่ทำสัญญา (Sign Contract)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <valueName>สอบถามการผ่อนดาวน์ (Down Payment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <valueName>สอบถามรายละเอียดเกี่ยวกับการชำระเงิน (Payment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <valueName>สอบถามวันที่โอน (Commitment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transfer Inquiry</controllingFieldValue>
+            <controllingFieldValue>CS/Transfer Inquiry</controllingFieldValue>
+            <valueName>สอบถามวันนัดหมายเข้าตรวจห้อง (Check defect appointment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMC Inquiry</controllingFieldValue>
+            <valueName>ติดตามการซ่อมพื้นที่ส่วนกลางก่อนนิติบุคคลรับมอบ (Follow up Common Area Defect before transfer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMT Inquiry</controllingFieldValue>
+            <controllingFieldValue>PMC Inquiry</controllingFieldValue>
+            <valueName>ติดตามงานซ่อมก่อนโอน (Follow up defect before transfer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <valueName>การนัดหมายสำหรับงานแจ้งซ่อม (Commitment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <valueName>การแจ้งซ่อม (Defect in the condo/house)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <valueName>งานร้องขอแจ้งซ่อมนอกประกัน (Job request/Out of warranty)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <valueName>ติดตามค่าชดเชย (Follow up compensation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <valueName>ติดตามงานซ่อม (Follow Up Defect)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Inquiry</controllingFieldValue>
+            <controllingFieldValue>FMC Inquiry</controllingFieldValue>
+            <valueName>แจ้งซ่อมพื้นที่ส่วนกลาง (Defect in common area)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>ขอเปลี่ยนแปลงที่อยู่ส่งบิล/เบอร์โทรศัพท์ (Change of Address/Letter/Phone number)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PMC Complaint</controllingFieldValue>
+            <valueName>มารยาท/การให้บริการของ PMC / แต่งกายไม่สุภาพ (Service/Manner)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Complaint</controllingFieldValue>
+            <controllingFieldValue>FMC Complaint</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนการซ่อมงาน (Delay Process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Complaint</controllingFieldValue>
+            <controllingFieldValue>FMC Complaint</controllingFieldValue>
+            <valueName>คุณภาพของงานซ่อม (Work Quality)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Complaint</controllingFieldValue>
+            <controllingFieldValue>FMC Complaint</controllingFieldValue>
+            <valueName>งานซ่อมพื้นที่ส่วนกลาง (Common Area)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Complaint</controllingFieldValue>
+            <controllingFieldValue>FMC Complaint</controllingFieldValue>
+            <valueName>มารยาทการให้บริการ (Service/Manner)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Complaint</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนฝ่าย HMC (Delay Process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Complaint</controllingFieldValue>
+            <valueName>คะแนน HMC (HMC Points)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Complaint</controllingFieldValue>
+            <valueName>งานอีเวนท์/แคมเปญ/โปรโมชั่น HMC (HMC Promotion/Campaign/Event)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HMC Complaint</controllingFieldValue>
+            <controllingFieldValue>AMC Complaint</controllingFieldValue>
+            <valueName>เรื่องเช็ค/เงินคืน (Cheque/Cash Back)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMC Complaint</controllingFieldValue>
+            <valueName>ความล่าช้าของขั้นตอนฝ่าย AMC (Delay Process)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMC Complaint</controllingFieldValue>
+            <valueName>คะแนน AMC (AMC Points)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMC Complaint</controllingFieldValue>
+            <valueName>งานอีเวนท์/แคมเปญ/โปรโมชั่น AMC (AMC Promotion/Campaign/Event)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <valueName>ทดสอบระบบ (System Testing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>ลูกค้าติดต่อผิดเบอร์ (Wrong Call)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telesales</controllingFieldValue>
+            <valueName>Telesales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telesales</controllingFieldValue>
+            <valueName>ติดต่อลูกค้าเพื่อ Telesales (Telesales)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Clarify Lead</controllingFieldValue>
+            <valueName>โทรติดตาม lead (Follow Up Lead)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

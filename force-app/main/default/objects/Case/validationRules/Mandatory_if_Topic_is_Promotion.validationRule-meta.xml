@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_if_Topic_is_Promotion</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(Topic__c , &quot;โปรโมชั่น (Promotion)&quot;)  &amp;&amp;  ISBLANK(Subject)</errorConditionFormula>
+    <errorDisplayField>Subject</errorDisplayField>
+    <errorMessage>Please specify Other Topic</errorMessage>
+</ValidationRule>

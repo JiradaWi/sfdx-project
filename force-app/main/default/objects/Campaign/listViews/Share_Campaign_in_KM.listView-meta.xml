@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Share_Campaign_in_KM</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>ActualStartDate__c</columns>
+    <columns>ActualEndDate__c</columns>
+    <columns>Owner_for_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SharetoKM2__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>equals</operation>
+        <value>Launch</value>
+    </filters>
+    <label>Share Campaign  in KM</label>
+</ListView>

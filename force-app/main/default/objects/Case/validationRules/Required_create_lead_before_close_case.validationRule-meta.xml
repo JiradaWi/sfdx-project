@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_create_lead_before_close_case</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND 
+(
+TEXT(Status) = &quot;closed&quot;, 
+Create_Lead__c = false,
+TEXT(Type__c) = &quot;Inquiry&quot;,
+TEXT(Subtype__c) = &quot;Project Information&quot;,
+OR
+(
+TEXT(Topic__c) = &quot;ขอรับโปรชัวร์, ข้อมูลโปรโมชั่น, ข้อมูลแคมเปญ (Require Brouchure/Campaign/Promotion)&quot;
+,TEXT(Topic__c) = &quot;นัดเวลาที่เข้าชมห้องตัวอย่าง/ติดต่อพนักงานขาย (Make an appointment/Contact Sales)&quot;,
+TEXT(Topic__c) = &quot;สอบถามข้อมูลโครงการ (Project detail)&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>The subtype you selected required to create lead</errorMessage>
+</ValidationRule>

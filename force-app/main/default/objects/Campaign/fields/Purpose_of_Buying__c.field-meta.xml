@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purpose_of_Buying__c</fullName>
+    <externalId>false</externalId>
+    <label>Purpose of Buying</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ซื้อเพื่ออยู่อาศัย / For Residence</fullName>
+                <default>false</default>
+                <label>ซื้อเพื่ออยู่อาศัย / For Residence</label>
+            </value>
+            <value>
+                <fullName>Investment (For Sale)</fullName>
+                <default>false</default>
+                <label>การลงทุน (ขายต่อ) / Investment (Selling)</label>
+            </value>
+            <value>
+                <fullName>Investment (For Rent)</fullName>
+                <default>false</default>
+                <label>การลงทุน (ปล่อยเช่า) / Investment (Rental)</label>
+            </value>
+            <value>
+                <fullName>การลงทุน (ขายต่อและปล่อยเช่า) Investment (Selling &amp; Rental)</fullName>
+                <default>false</default>
+                <label>การลงทุน (ขายต่อและปล่อยเช่า) / Investment (Selling &amp; Rental)</label>
+            </value>
+            <value>
+                <fullName>Buy for family members/Property Asset</fullName>
+                <default>false</default>
+                <label>ซื้อให้คนในครอบครัว (เก็บเป็นทรัพย์สิน) / Buy for family member (Property Asset)</label>
+            </value>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Close to your current residence</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Close to your current residence</label>
+            </value>
+            <value>
+                <fullName>Convenient Transportation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Convenient Transportation</label>
+            </value>
+            <value>
+                <fullName>Good Environment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Good Environment</label>
+            </value>
+            <value>
+                <fullName>Near workplace</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Near workplace</label>
+            </value>
+            <value>
+                <fullName>Separated/Extended Family</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Separated/Extended Family</label>
+            </value>
+            <value>
+                <fullName>ซื้อเก็บเอาไว้ในอนาคต</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ซื้อเก็บเอาไว้ในอนาคต</label>
+            </value>
+            <value>
+                <fullName>ซื้อให้คนในครอบครัว</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ซื้อให้คนในครอบครัว</label>
+            </value>
+            <value>
+                <fullName>บ้านหลังที่สอง</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>บ้านหลังที่สอง</label>
+            </value>
+            <value>
+                <fullName>บ้านหลังแรก</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>บ้านหลังแรก</label>
+            </value>
+            <value>
+                <fullName>ใกล้ที่อยู่อาศัยเดิม</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ใกล้ที่อยู่อาศัยเดิม</label>
+            </value>
+            <value>
+                <fullName>ใกล้โรงเรียนลูก</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ใกล้โรงเรียนลูก</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

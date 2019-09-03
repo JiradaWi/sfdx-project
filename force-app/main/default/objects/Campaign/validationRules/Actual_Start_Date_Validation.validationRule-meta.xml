@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Start_Date_Validation</fullName>
+    <active>true</active>
+    <description>&#39;Actual Start Date&#39; should not be before &#39;Planned Start Date&#39;</description>
+    <errorConditionFormula>ActualStartDate__c &lt; StartDate</errorConditionFormula>
+    <errorMessage>Actual Start Date should not be before  Planned Start Date</errorMessage>
+</ValidationRule>

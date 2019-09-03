@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Model Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 BedRoom</fullName>
+                <default>false</default>
+                <label>1 BedRoom</label>
+            </value>
+            <value>
+                <fullName>1 Bedroom  private garden</fullName>
+                <default>false</default>
+                <label>1 Bedroom  private garden</label>
+            </value>
+            <value>
+                <fullName>1 Bedroom H</fullName>
+                <default>false</default>
+                <label>1 Bedroom H</label>
+            </value>
+            <value>
+                <fullName>1 Bedroom hybrid</fullName>
+                <default>false</default>
+                <label>1 Bedroom hybrid</label>
+            </value>
+            <value>
+                <fullName>1 Bedroom Plus</fullName>
+                <default>false</default>
+                <label>1 Bedroom Plus</label>
+            </value>
+            <value>
+                <fullName>2 BedRoom</fullName>
+                <default>false</default>
+                <label>2 BedRoom</label>
+            </value>
+            <value>
+                <fullName>2 Bedroom 1 Bathroom</fullName>
+                <default>false</default>
+                <label>2 Bedroom 1 Bathroom</label>
+            </value>
+            <value>
+                <fullName>2 Bedroom 2 Bathroom</fullName>
+                <default>false</default>
+                <label>2 Bedroom 2 Bathroom</label>
+            </value>
+            <value>
+                <fullName>2 Bedroom H</fullName>
+                <default>false</default>
+                <label>2 Bedroom H</label>
+            </value>
+            <value>
+                <fullName>2 Bedroom Hybird</fullName>
+                <default>false</default>
+                <label>2 Bedroom Hybird</label>
+            </value>
+            <value>
+                <fullName>2 Bedroom Plus</fullName>
+                <default>false</default>
+                <label>2 Bedroom Plus</label>
+            </value>
+            <value>
+                <fullName>2 Bedroom private pool access</fullName>
+                <default>false</default>
+                <label>2 Bedroom private pool access</label>
+            </value>
+            <value>
+                <fullName>3 Bedroom</fullName>
+                <default>false</default>
+                <label>3 Bedroom</label>
+            </value>
+            <value>
+                <fullName>Duplex</fullName>
+                <default>false</default>
+                <label>Duplex</label>
+            </value>
+            <value>
+                <fullName>Duplex 1 Bedroom</fullName>
+                <default>false</default>
+                <label>Duplex 1 Bedroom</label>
+            </value>
+            <value>
+                <fullName>Duplex 1 Bedroom Plus</fullName>
+                <default>false</default>
+                <label>Duplex 1 Bedroom Plus</label>
+            </value>
+            <value>
+                <fullName>Duplex 2 Bedroom</fullName>
+                <default>false</default>
+                <label>Duplex 2 Bedroom</label>
+            </value>
+            <value>
+                <fullName>Duplex 3 Bedroom</fullName>
+                <default>false</default>
+                <label>Duplex 3 Bedroom</label>
+            </value>
+            <value>
+                <fullName>Penthouse</fullName>
+                <default>false</default>
+                <label>Penthouse</label>
+            </value>
+            <value>
+                <fullName>SHOP</fullName>
+                <default>false</default>
+                <label>SHOP</label>
+            </value>
+            <value>
+                <fullName>SHOP HOUSE</fullName>
+                <default>false</default>
+                <label>SHOP HOUSE</label>
+            </value>
+            <value>
+                <fullName>Studio</fullName>
+                <default>false</default>
+                <label>Studio</label>
+            </value>
+            <value>
+                <fullName>Studio H</fullName>
+                <default>false</default>
+                <label>Studio H</label>
+            </value>
+            <value>
+                <fullName>Studio hybrid</fullName>
+                <default>false</default>
+                <label>Studio hybrid</label>
+            </value>
+            <value>
+                <fullName>Town Villa</fullName>
+                <default>false</default>
+                <label>Town Villa</label>
+            </value>
+            <value>
+                <fullName>Twist 1 Bedroom Plus</fullName>
+                <default>false</default>
+                <label>Twist 1 Bedroom Plus</label>
+            </value>
+            <value>
+                <fullName>Twist 2 Bed 1 Bath</fullName>
+                <default>false</default>
+                <label>Twist 2 Bed 1 Bath</label>
+            </value>
+            <value>
+                <fullName>Twist 2 Bed 2 Bath</fullName>
+                <default>false</default>
+                <label>Twist 2 Bed 2 Bath</label>
+            </value>
+            <value>
+                <fullName>UT-16A</fullName>
+                <default>false</default>
+                <label>UT-16A</label>
+            </value>
+            <value>
+                <fullName>UT-18A</fullName>
+                <default>false</default>
+                <label>UT-18A</label>
+            </value>
+            <value>
+                <fullName>UT-18B</fullName>
+                <default>false</default>
+                <label>UT-18B</label>
+            </value>
+            <value>
+                <fullName>UT-18BM03</fullName>
+                <default>false</default>
+                <label>UT-18BM03</label>
+            </value>
+            <value>
+                <fullName>UT-20B</fullName>
+                <default>false</default>
+                <label>UT-20B</label>
+            </value>
+            <value>
+                <fullName>UT-20BM03</fullName>
+                <default>false</default>
+                <label>UT-20BM03</label>
+            </value>
+            <value>
+                <fullName>ทาวน์เฮ้าส์ 2 ชั้น</fullName>
+                <default>false</default>
+                <label>ทาวน์เฮ้าส์ 2 ชั้น</label>
+            </value>
+            <value>
+                <fullName>ทาวน์เฮ้าส์ 3 ชั้น</fullName>
+                <default>false</default>
+                <label>ทาวน์เฮ้าส์ 3 ชั้น</label>
+            </value>
+            <value>
+                <fullName>ทาวน์เฮ้าส์ 3.5 ชั้น</fullName>
+                <default>false</default>
+                <label>ทาวน์เฮ้าส์ 3.5 ชั้น</label>
+            </value>
+            <value>
+                <fullName>ทาวน์เฮ้าส์ 4.5 ชั้น</fullName>
+                <default>false</default>
+                <label>ทาวน์เฮ้าส์ 4.5 ชั้น</label>
+            </value>
+            <value>
+                <fullName>ทาวน์โฮม 2  ชั้น</fullName>
+                <default>false</default>
+                <label>ทาวน์โฮม 2  ชั้น</label>
+            </value>
+            <value>
+                <fullName>ทาวน์โฮม 3  ชั้น</fullName>
+                <default>false</default>
+                <label>ทาวน์โฮม 3  ชั้น</label>
+            </value>
+            <value>
+                <fullName>บ้านเดี่ยว 2 ชั้น</fullName>
+                <default>false</default>
+                <label>บ้านเดี่ยว 2 ชั้น</label>
+            </value>
+            <value>
+                <fullName>บ้านเดี่ยว 3 ชั้น</fullName>
+                <default>false</default>
+                <label>บ้านเดี่ยว 3 ชั้น</label>
+            </value>
+            <value>
+                <fullName>บ้านตึกเดี่ยว 2 ชั้น</fullName>
+                <default>false</default>
+                <label>บ้านตึกเดี่ยว 2 ชั้น</label>
+            </value>
+            <value>
+                <fullName>บ้านตึกเดี่ยว 3 ชั้น</fullName>
+                <default>false</default>
+                <label>บ้านตึกเดี่ยว 3 ชั้น</label>
+            </value>
+            <value>
+                <fullName>บ้านแฝด 2 ชั้น</fullName>
+                <default>false</default>
+                <label>บ้านแฝด 2 ชั้น</label>
+            </value>
+            <value>
+                <fullName>บ้านแฝด 3 ชั้น</fullName>
+                <default>false</default>
+                <label>บ้านแฝด 3 ชั้น</label>
+            </value>
+            <value>
+                <fullName>พรานา</fullName>
+                <default>false</default>
+                <label>พรานา</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
