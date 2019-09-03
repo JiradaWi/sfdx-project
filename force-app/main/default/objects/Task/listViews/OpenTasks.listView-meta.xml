@@ -10,7 +10,7 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>LAST_UPDATE</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <filters>
         <field>IS_CLOSED</field>
         <operation>equals</operation>
@@ -22,9 +22,9 @@
         <value>0</value>
     </filters>
     <filters>
-        <field>CREATED_DATE</field>
+        <field>DUE_DATE</field>
         <operation>greaterOrEqual</operation>
         <value>LAST_N_DAYS:30</value>
     </filters>
-    <label>Open Tasks</label>
+    <label>ENCODED:{!FilterNames.Task_OpenTasks}</label>
 </ListView>
