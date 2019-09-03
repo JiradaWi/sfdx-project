@@ -1,61 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAssignNotificationTemplate>unfiled$public/SupportCaseAssignmentNotification</caseAssignNotificationTemplate>
+    <caseCreateNotificationTemplate>unfiled$public/SupportCaseCreatedPhoneInquiries</caseCreateNotificationTemplate>
     <caseFeedItemSettings>
         <characterLimit>400</characterLimit>
-        <collapseThread>false</collapseThread>
+        <collapseThread>true</collapseThread>
         <displayFormat>Default</displayFormat>
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>karoon-r5dq@force.com</defaultCaseOwner>
+    <defaultCaseOwner>cutiemoon08@cunning-hawk-i1io4p.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>cutiemoon08@cunning-hawk-i1io4p.com</defaultCaseUser>
     <emailToCase>
-        <enableE2CSourceTracking>true</enableE2CSourceTracking>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>true</enableHtmlEmail>
-        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadIDInBody>true</enableThreadIDInBody>
-        <enableThreadIDInSubject>false</enableThreadIDInSubject>
-        <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
-        <overEmailLimitAction>Bounce</overEmailLimitAction>
-        <preQuoteSignature>true</preQuoteSignature>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>putita.lekwongderm@accenture.com</emailAddress>
-            <emailServicesAddress>putita.lekwongderm@f-12un55axhni1igegm5gllokjy2dcmjtvq48uofb88hs0ledlw1.n-r5qumak.cs6.case.sandbox.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Ananda Email</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>jirada.wiwitumpon@accenture.com</emailAddress>
-            <emailServicesAddress>jirada.wiwitumpon@2-2cwjpbvg3t5d29iu1quhbl5zfqjmhv1zwutks01t8yngjf1ocj.n-r5qumak.cs6.case.sandbox.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Helix Email</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
-    <enableCaseFeed>false</enableCaseFeed>
+    <enableCaseFeed>true</enableCaseFeed>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
-    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
-    <systemUserEmail>mamiao26536@gmail.com</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
-    <useSystemUserAsDefaultCaseUser>true</useSystemUserAsDefaultCaseUser>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
-        <enableWebToCase>false</enableWebToCase>
+        <caseOrigin>Web</caseOrigin>
+        <defaultResponseTemplate>unfiled$public/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
+        <enableWebToCase>true</enableWebToCase>
     </webToCase>
 </CaseSettings>

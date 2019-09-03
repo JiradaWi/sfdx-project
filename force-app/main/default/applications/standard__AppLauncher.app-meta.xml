@@ -6,4 +6,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
     <tabs>Candidate__c</tabs>
+    <tabs>Tower__c</tabs>
 </CustomApplication>

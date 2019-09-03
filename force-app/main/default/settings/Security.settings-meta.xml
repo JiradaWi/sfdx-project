@@ -3,8 +3,8 @@
     <networkAccess/>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
-        <expiration>Never</expiration>
-        <historyRestriction>0</historyRestriction>
+        <expiration>NinetyDays</expiration>
+        <historyRestriction>3</historyRestriction>
         <lockoutInterval>FifteenMinutes</lockoutInterval>
         <maxLoginAttempts>TenAttempts</maxLoginAttempts>
         <minimumPasswordLength>8</minimumPasswordLength>
@@ -13,7 +13,7 @@
         <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <sessionSettings>
-        <disableTimeoutWarning>true</disableTimeoutWarning>
+        <disableTimeoutWarning>false</disableTimeoutWarning>
         <enableCSPOnEmail>true</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
@@ -35,13 +35,13 @@
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <lockerServiceCSP>false</lockerServiceCSP>
+        <lockerServiceCSP>true</lockerServiceCSP>
         <lockerServiceFrozenRealm>false</lockerServiceFrozenRealm>
         <redirectionWarning>true</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>false</requireHttpOnly>
         <requireHttps>true</requireHttps>
         <securityCentralKillSession>true</securityCentralKillSession>
-        <sessionTimeout>EightHours</sessionTimeout>
+        <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>

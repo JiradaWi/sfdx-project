@@ -1,39 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"/>
-=======
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <recordTypes>
-        <label><!-- Corporate Account --></label>
-        <name>Edit_Corporate_Account</name>
+        <description><!-- For customers and prospects --></description>
+        <label><!-- Customer Account --></label>
+        <name>Customer_Account</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- New Corporate Account --></label>
-        <name>New_Corporate_Account</name>
+        <description><!-- For consulting partners --></description>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account</name>
     </recordTypes>
     <validationRules>
-        <errorMessage><!-- These required fields must be completed: Preferred Mobile No. or Preferred Email --></errorMessage>
-        <name>Corporate_Account</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- These required fields must be completed: First Name, Last Name, Preferred Mobile No. or Preferred Email --></errorMessage>
-        <name>Individual_Account</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Preferred Mobile No. should be numbers (length 9-10 for local phone) --></errorMessage>
-        <name>Only_number_for_phone</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Please input only english characters and number only --></errorMessage>
-        <name>Passport_ID</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Must be number format and length 13 --></errorMessage>
-        <name>Personal_ID_Card</name>
+        <errorMessage><!-- You must enter an expiration date when an account has a support plan. --></errorMessage>
+        <name>Support_plan_expiration_date_required</name>
     </validationRules>
     <webLinks>
-        <label><!-- Survey --></label>
-        <name>Survey</name>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
     </webLinks>
 </CustomObjectTranslation>
->>>>>>> b5e7d737e1c3f40d2d060762ecc24ca306a274de

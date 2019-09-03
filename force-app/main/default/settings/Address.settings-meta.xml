@@ -1056,9 +1056,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Chinese Taipei</integrationValue>
+                <integrationValue>Taiwan</integrationValue>
                 <isoCode>71</isoCode>
-                <label>Chinese Taipei</label>
+                <label>Taiwan</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
@@ -3206,9 +3206,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Libyan Arab Jamahiriya</integrationValue>
+            <integrationValue>Libya</integrationValue>
             <isoCode>LY</isoCode>
-            <label>Libyan Arab Jamahiriya</label>
+            <label>Libya</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -3858,9 +3858,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Palestinian Territory, Occupied</integrationValue>
+            <integrationValue>Palestine</integrationValue>
             <isoCode>PS</isoCode>
-            <label>Palestinian Territory, Occupied</label>
+            <label>Palestine</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4254,9 +4254,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Chinese Taipei</integrationValue>
+            <integrationValue>Taiwan</integrationValue>
             <isoCode>TW</isoCode>
-            <label>Chinese Taipei</label>
+            <label>Taiwan</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4293,7 +4293,7 @@
             <integrationValue>United States</integrationValue>
             <isoCode>US</isoCode>
             <label>United States</label>
-            <orgDefault>true</orgDefault>
+            <orgDefault>false</orgDefault>
             <standard>true</standard>
             <states>
                 <active>false</active>
@@ -4857,9 +4857,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Viet Nam</integrationValue>
+            <integrationValue>Vietnam</integrationValue>
             <isoCode>VN</isoCode>
-            <label>Viet Nam</label>
+            <label>Vietnam</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>

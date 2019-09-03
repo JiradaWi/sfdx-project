@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Example : +66876478600 --></help>
-    <label><!-- Preferred Mobile No. --></label>
-    <name>Preferred_Mobile_No__c</name>
-</CustomFieldTranslation>

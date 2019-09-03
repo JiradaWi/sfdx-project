@@ -3,7 +3,7 @@
     <autoActivateNewReminders>true</autoActivateNewReminders>
     <customizableProductSchedulesEnabled>false</customizableProductSchedulesEnabled>
     <enableFindSimilarOpportunities>false</enableFindSimilarOpportunities>
-    <enableOpportunityTeam>true</enableOpportunityTeam>
+    <enableOpportunityTeam>false</enableOpportunityTeam>
     <enableUpdateReminders>true</enableUpdateReminders>
-    <promptToAddProducts>true</promptToAddProducts>
+    <promptToAddProducts>false</promptToAddProducts>
 </OpportunitySettings>

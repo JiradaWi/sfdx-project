@@ -6,4 +6,5 @@
     <label>External Orders</label>
     <tabs>Quickstart</tabs>
     <tabs>Candidate__c</tabs>
+    <tabs>Tower__c</tabs>
 </CustomApplication>

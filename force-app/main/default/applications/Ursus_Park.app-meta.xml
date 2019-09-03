@@ -17,6 +17,7 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>Candidate__c</tabs>
+    <tabs>Tower__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ursus_Park_UtilityBar</utilityBar>
 </CustomApplication>

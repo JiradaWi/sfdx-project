@@ -4,4 +4,5 @@
     <eventType>HighVolume</eventType>
     <label>Syndication Event</label>
     <pluralLabel>Syndication Events</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
 </CustomObject>

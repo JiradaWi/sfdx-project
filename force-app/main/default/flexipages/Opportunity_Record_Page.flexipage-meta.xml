@@ -6,6 +6,10 @@
                 <name>collapsed</name>
                 <value>false</value>
             </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>numVisibleActions</name>
+                <value>3</value>
+            </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -17,6 +21,10 @@
             <componentInstanceProperties>
                 <name>hideUpdateButton</name>
                 <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>variant</name>
+                <value>linear</value>
             </componentInstanceProperties>
             <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
         </componentInstances>
@@ -34,18 +42,18 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>forceChatter:recordFeedContainer</componentName>
-        </componentInstances>
-        <mode>Replace</mode>
-        <name>feedTabContent</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <componentInstances>
             <componentName>force:detailPanel</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>detailTabContent</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>forceChatter:recordFeedContainer</componentName>
+        </componentInstances>
+        <mode>Replace</mode>
+        <name>feedTabContent</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -67,22 +75,22 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>feedTabContent</value>
+                <value>detailTabContent</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
-                <value>Standard.Tab.collaborate</value>
+                <value>Standard.Tab.detail</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>body</name>
-                <value>detailTabContent</value>
+                <value>feedTabContent</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>title</name>
-                <value>Standard.Tab.detail</value>
+                <value>Standard.Tab.collaborate</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
@@ -104,11 +112,10 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>hideHeader</name>
-                <value>false</value>
-            </componentInstanceProperties>
-            <componentName>force:relatedListQuickLinksContainer</componentName>
+            <componentName>WelcomMessage</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>cooper:companyInsightTeaserCard</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
