@@ -1,4 +1,4 @@
-     public with sharing class SearchResultsController {
+public with sharing class SearchResultsController {
      @AuraEnabled
      public static List<Account> getAccounts() {
        List<Account> accounts = [SELECT Id, Name, Phone, Website, OwnerId FROM Account LIMIT 5];

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label><!-- Corporate Account --></label>
+        <name>Edit_Corporate_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- New Corporate Account --></label>
+        <name>New_Corporate_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- These required fields must be completed: Preferred Mobile No. or Preferred Email --></errorMessage>
+        <name>Corporate_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- These required fields must be completed: First Name, Last Name, Preferred Mobile No. or Preferred Email --></errorMessage>
+        <name>Individual_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Preferred Mobile No. should be numbers (length 9-10 for local phone) --></errorMessage>
+        <name>Only_number_for_phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please input only english characters and number only --></errorMessage>
+        <name>Passport_ID</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must be number format and length 13 --></errorMessage>
+        <name>Personal_ID_Card</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Survey --></label>
+        <name>Survey</name>
+    </webLinks>
+</CustomObjectTranslation>

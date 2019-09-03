@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_sent_to_Corp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag when send campaign brief form to corporate marketing or marketing agency</description>
+    <externalId>false</externalId>
+    <label>Is sent to Corp</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

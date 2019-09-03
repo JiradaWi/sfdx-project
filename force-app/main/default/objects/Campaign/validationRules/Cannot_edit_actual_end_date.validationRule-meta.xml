@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_edit_actual_end_date</fullName>
+    <active>true</active>
+    <errorConditionFormula>SharetoKM2__c = true &amp;&amp;  ISCHANGED( ActualEndDate__c )</errorConditionFormula>
+    <errorDisplayField>ActualEndDate__c</errorDisplayField>
+    <errorMessage>Please request memo to extend campaign period</errorMessage>
+</ValidationRule>

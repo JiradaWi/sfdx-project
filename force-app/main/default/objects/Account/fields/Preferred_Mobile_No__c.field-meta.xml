@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Mobile_No__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Example : +66876478600</inlineHelpText>
+    <label>Preferred Mobile No.</label>
+    <required>false</required>
+    <type>Phone</type>
+</CustomField>

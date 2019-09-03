@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Phone_Number__c</fullName>
+    <description>If User&#39;s company = Ananda, display Ananda&#39;s number. Else, display Helix&#39;s number.</description>
+    <externalId>false</externalId>
+    <formula>IF( $User.CompanyName = &#39;Ananda&#39;, &#39;02-316-2222&#39;, &#39;02-032-2222&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Company Phone Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

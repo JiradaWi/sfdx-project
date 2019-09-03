@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_of_campaign_media_budget</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Sum_of_Media_Offline__c + Sum_of_Media_Online__c)  &gt;  Campaign_Budget__c</errorConditionFormula>
+    <errorMessage>Sum of campaign media budget should not exceed campaign budget</errorMessage>
+</ValidationRule>
