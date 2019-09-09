@@ -12,6 +12,7 @@
     <tabs>Search_Results</tabs>
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
+    <tabs>Drink_Order__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Search_Proto_UtilityBar</utilityBar>
 </CustomApplication>

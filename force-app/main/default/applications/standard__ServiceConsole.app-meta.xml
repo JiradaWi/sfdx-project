@@ -181,9 +181,13 @@
     <tabs>standard-Lead</tabs>
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
+    <tabs>Drink_Order__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Candidate__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Drink_Order__c</tab>
         </mappings>
         <mappings>
             <tab>Tower__c</tab>

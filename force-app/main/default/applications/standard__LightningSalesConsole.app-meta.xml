@@ -20,11 +20,15 @@
     <tabs>standard-File</tabs>
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
+    <tabs>Drink_Order__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Candidate__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Drink_Order__c</tab>
         </mappings>
         <mappings>
             <tab>Tower__c</tab>
