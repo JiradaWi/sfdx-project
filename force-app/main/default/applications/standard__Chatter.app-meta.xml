@@ -12,4 +12,5 @@
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
     <tabs>Drink_Order__c</tabs>
+    <tabs>Knowledge</tabs>
 </CustomApplication>

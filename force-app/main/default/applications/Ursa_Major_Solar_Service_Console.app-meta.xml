@@ -10,23 +10,31 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Ursa Major Solar Service Console</label>
     <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Console_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Console_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Custom: Support Profile</profile>
+    </profileActionOverrides>
     <tabs>standard-Account</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>Candidate__c</tabs>
-    <tabs>Tower__c</tabs>
-    <tabs>Drink_Order__c</tabs>
+    <tabs>Knowledge__kav</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ursa_Major_Solar_Service_Console_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>Candidate__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Drink_Order__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Tower__c</tab>
+            <tab>Knowledge__kav</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
