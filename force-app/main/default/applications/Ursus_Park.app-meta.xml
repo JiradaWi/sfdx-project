@@ -19,6 +19,7 @@
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
     <tabs>Drink_Order__c</tabs>
+    <tabs>Knowledge</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Ursus_Park_UtilityBar</utilityBar>
 </CustomApplication>

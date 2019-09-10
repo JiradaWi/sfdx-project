@@ -179,15 +179,20 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>standard-Knowledge</tabs>
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
     <tabs>Drink_Order__c</tabs>
+    <tabs>Knowledge</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Candidate__c</tab>
         </mappings>
         <mappings>
             <tab>Drink_Order__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Knowledge</tab>
         </mappings>
         <mappings>
             <tab>Tower__c</tab>
@@ -202,6 +207,9 @@
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Knowledge</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>

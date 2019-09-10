@@ -873,6 +873,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.SourceId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Subject</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1827,9 +1832,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Customer Account Layout</layout>
         <recordType>Account.Customer_Account</recordType>
     </layoutAssignments>
@@ -2230,6 +2232,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-QuickText</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

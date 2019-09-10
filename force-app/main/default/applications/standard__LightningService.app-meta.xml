@@ -15,6 +15,8 @@
     <tabs>Candidate__c</tabs>
     <tabs>Tower__c</tabs>
     <tabs>Drink_Order__c</tabs>
+    <tabs>Knowledge</tabs>
+    <tabs>Knowledge__kav</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -23,6 +25,12 @@
         </mappings>
         <mappings>
             <tab>Drink_Order__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Knowledge</tab>
+        </mappings>
+        <mappings>
+            <tab>Knowledge__kav</tab>
         </mappings>
         <mappings>
             <tab>Tower__c</tab>
