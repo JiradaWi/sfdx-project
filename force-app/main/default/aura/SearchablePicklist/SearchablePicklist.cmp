@@ -1,0 +1,29 @@
+<aura:component
+    implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+    access="global">
+
+
+    <lightning:card footer="Card Footer" title="Hello">
+        <aura:set attribute="actions">
+            <lightning:button label="New" />
+        </aura:set>
+        <p class="slds-p-horizontal_small">
+            <div class="slds-form-element">
+                
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="text-input-id-1">
+                    <abbr class="slds-required" title="required">* </abbr>Lala</label>
+                    <div class="slds-form-element__control">
+                    <input type="text" class="slds-input" onkeypress="{!c.getPicklistValue}" />
+                    </div>
+                </div>
+
+
+            </div>
+        </p>
+    </lightning:card>
+
+
+
+
+</aura:component>

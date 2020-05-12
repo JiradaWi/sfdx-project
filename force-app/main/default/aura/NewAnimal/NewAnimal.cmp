@@ -1,0 +1,44 @@
+<aura:component
+    implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:isUrlAddressable,lightning:actionOverride"
+    controller="AnimalController">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <aura:attribute name="animal" type="List" />
+
+    <lightning:recordEditForm objectApiName="Animal__c" onsuccess="{!c.refreshData}" >
+        <lightning:messages />
+        <lightning:inputField fieldName="Name" />
+        <lightning:inputField fieldName="Continent__c" />
+        <lightning:inputField fieldName="Food__c" />
+        <lightning:button class="slds-m-top_small" variant="brand" type="submit" name="update" label="Update" />
+    </lightning:recordEditForm>
+
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+        <thead>
+            <tr class="slds-line-height_reset">
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Animal Name">Animal Name</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Food">Food</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <aura:iteration items="{!v.animal}" var="ani">
+                <tr class="slds-hint-parent">
+
+                    <td data-label="Animal Name">
+                        <div class="slds-truncate" title="{!ani.Name}">{!ani.Name}</div>
+                    </td>
+                    <td data-label="Food">
+                        <div class="slds-truncate" title="{!ani.Food__c}">{!ani.Food__c}</div>
+                    </td>
+
+                </tr>
+            </aura:iteration>
+
+        </tbody>
+    </table>
+</aura:component>
